@@ -17,6 +17,10 @@
       "file": "DP.json"
     },
     {
+      "name": "Informatica",
+      "file": "INF.json"
+    },
+    {
       "name": "Norme servizio e regolamento",
       "file": "NSR.json"
     },

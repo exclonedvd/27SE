@@ -1,5 +1,635 @@
 [
   {
+    "question": "Secondo la direttiva SMA-ORD-001, la leadership è:",
+    "answers": [
+      "Un atto unilaterale d’imposizione",
+      "Una relazione di influenza tra capi e collaboratori per scopi condivisi e per aggiungere valore alle persone",
+      "Una tecnica di marketing",
+      "Una procedura amministrativa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La leadership guida principalmente tramite:",
+    "answers": [
+      "Ordini e sanzioni",
+      "Esempio, comunicazione efficace, ascolto e capacità d’ispirare",
+      "Solo piani scritti",
+      "Deleghe senza controllo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Un vero leader possiede soprattutto:",
+    "answers": [
+      "Solo autorità formale",
+      "Visione, integrità, empatia e capacità di trasformare idee in azioni",
+      "Capacità atletiche",
+      "Anni di anzianità"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il termine leadership deriva da:",
+    "answers": [
+      "To follow",
+      "To lead (guidare/dirigere)",
+      "Lead (metallo)",
+      "Leaderboard"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La followership è definita come:",
+    "answers": [
+      "Obbedienza passiva",
+      "Capacità di supportare il leader partecipando attivamente al raggiungimento degli obiettivi e adattandosi ai cambiamenti",
+      "Controllo dell’organizzazione",
+      "Un titolo onorifico"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Un buon leader secondo Robert Kelly è anche:",
+    "answers": [
+      "Uno stratega isolato",
+      "Un valido follower attivo e critico",
+      "Un tecnico specialista",
+      "Un supervisore fiscale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La differenza chiave indicata nel testo:",
+    "answers": [
+      "Leadership = popolarità; followership = impopolarità",
+      "Leadership implica decisioni anche impopolari; followership orienta a teamwork efficace e onesto",
+      "Non esiste differenza",
+      "Followership è superiore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Leadership e followership:",
+    "answers": [
+      "Sono opposte e incompatibili",
+      "Vanno di pari passo: entrambe determinanti per l’efficacia organizzativa",
+      "Riguardano solo l’azienda privata",
+      "Valgono solo in emergenza"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La cornice descrive lo scenario attuale come:",
+    "answers": [
+      "Stabile e prevedibile",
+      "Volatile, incerto, complesso, ambiguo, con cambiamenti repentini",
+      "Lento e lineare",
+      "Solo tecnologico"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Per affrontare la complessità, la 'chiave di volta' è:",
+    "answers": [
+      "Ridurre il personale",
+      "L’azione collettiva guidata da leadership adeguata",
+      "Aumentare le riunioni",
+      "Automatizzare tutto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La leadership in A.M. è vista come:",
+    "answers": [
+      "Espressione di un singolo individuo",
+      "Processo di influenza collettivo che coinvolge tutti gli attori organizzativi",
+      "Solo carisma",
+      "Solo funzione HR"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Le dimensioni del modello A.M. sono:",
+    "answers": [
+      "Tecnica, tattica, logistica, morale",
+      "Self, Team, Organization, Strategic",
+      "Politica, militare, economica, culturale",
+      "Operativa, didattica, disciplinare, sportiva"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Dimensione 'Self' riguarda:",
+    "answers": [
+      "Conoscere/gestire/sviluppare se stessi e le relazioni",
+      "Solo gestire l’agenda",
+      "Contabilità",
+      "Pianificazione logistica"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Perché la dimensione 'Self' è centrale?",
+    "answers": [
+      "È marginale",
+      "È cardine: la consapevolezza di sé è rilevante anche ai livelli più alti",
+      "Conta solo all’inizio",
+      "Vale solo per i quadri"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La dimensione 'Team' è concettualizzata tramite il modello:",
+    "answers": [
+      "3C",
+      "4D: Direzione, Disegno, Dinamiche, Decisione",
+      "PDCA",
+      "SMART"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La dimensione 'Organization' implica:",
+    "answers": [
+      "Lavorare in isolamento",
+      "Conoscere valori/obiettivi, fare rete, condividere conoscenza, innovare processi",
+      "Solo usare tool IT",
+      "Solo parlare inglese"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La dimensione 'Strategic' riguarda:",
+    "answers": [
+      "Compiti esecutivi",
+      "Processi decisionali ad alta rilevanza, pensiero strategico, approccio di sistema",
+      "Solo comunicazione pubblica",
+      "Solo addestramento"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La 'costellazione delle competenze' indica che le competenze:",
+    "answers": [
+      "Stanno isolate per dominio",
+      "Si intersecano tra dimensioni creando sovrapposizioni e letture più complesse nel tempo",
+      "Sono fisse e immutabili",
+      "Sono solo tecniche"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Esempio: la 'gestione dello stress' è:",
+    "answers": [
+      "Solo self",
+      "Prevalente in self ma rilevante anche per team e organizzazione",
+      "Solo organizzazione",
+      "Solo strategia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Lo sviluppo della leadership accompagna il militare:",
+    "answers": [
+      "Solo nei corsi iniziali",
+      "Dall’incorporamento fino al congedo",
+      "Solo fino al primo incarico",
+      "Solo in Accademia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Le tre tipologie di apprendimento sono:",
+    "answers": [
+      "On the job, hobby, volontariato",
+      "Apprendimento formale; esperienze di impiego; autoapprendimento (formazione non formale/informale)",
+      "Solo e-learning",
+      "Tutoraggio e basta"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Esempio di apprendimento formale:",
+    "answers": [
+      "Workshop informali",
+      "Iter strutturati: Formazione di Base, Formazione Avanzata Single Service e Joint",
+      "Esperienze estere occasionali",
+      "Autoformazione"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Esperienze di impiego includono:",
+    "answers": [
+      "Solo reparti operativi",
+      "Incarichi/funzioni in diversi contesti (SMD, joint, OFCN, ecc.)",
+      "Solo corsi online",
+      "Solo missioni estere"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Autoapprendimento comprende:",
+    "answers": [
+      "Solo lettura libri",
+      "Mentoring, FAD facoltativa, Catalogo delle Conoscenze, conferenze, esercitazioni, workshop/seminari",
+      "Solo sport",
+      "Solo simulazioni"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Per capitalizzare l’autoapprendimento è importante che:",
+    "answers": [
+      "Si inizi tardi",
+      "I semi delle competenze per lo sviluppo di sé siano acquisiti nei primi anni formativi",
+      "Sia escluso dall’iter",
+      "Sia non tracciato"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La leadership in A.M. segue una logica:",
+    "answers": [
+      "Settoriale",
+      "Olistica che abbraccia individuo, gruppo, organizzazione e livello strategico",
+      "Solo tecnico-operativa",
+      "Solo disciplinare"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "L’investimento nella formazione alla leadership è:",
+    "answers": [
+      "Marginale",
+      "Strategico e attuatore di leadership sistemica nelle organizzazioni ad alte prestazioni",
+      "Solo economico",
+      "Solo per ufficiali"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Sintesi grafica finale sottolinea:",
+    "answers": [
+      "Solo followership",
+      "4 dimensioni e formazione continua durante tutta la carriera",
+      "Solo autoapprendimento",
+      "Solo 4D del team"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Secondo il documento, la risorsa chiave di ogni organizzazione complessa è costituita da:",
+    "answers": [
+      "Le infrastrutture",
+      "Le persone e le loro idee",
+      "Il bilancio economico",
+      "Le tecnologie di rete"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La missione quotidiana dell’Aeronautica Militare è garantire:",
+    "answers": [
+      "Solo il trasporto sanitario",
+      "Il controllo dello spazio aereo e la protezione degli interessi nazionali, in Italia e all’estero",
+      "La vigilanza costiera",
+      "La gestione dei porti"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "L’unità operativa fondamentale dell’A.M. è:",
+    "answers": [
+      "La Squadriglia",
+      "Lo Stormo",
+      "La Brigata",
+      "Il Reggimento"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tra le capacità riconosciute internazionalmente all’A.M. NON rientra:",
+    "answers": [
+      "Addestramento al volo",
+      "Trasporto sanitario in biocontenimento",
+      "Gestione logistica avanzata",
+      "Gestione portuale"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "La F.A. per essere determinante deve essere:",
+    "answers": [
+      "Solo efficiente",
+      "Efficace, proiettabile, versatile, integrabile, tecnologicamente avanzata, interoperabile",
+      "Solo tecnologicamente avanzata",
+      "Solo agile"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il termine 'proiettabile' indica:",
+    "answers": [
+      "Capace di operare solo in patria",
+      "Capacità di rischierarsi e operare in teatri remoti",
+      "Uso esclusivo di elicotteri",
+      "Capacità di autoproduzione energetica"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "'Rete-centrica' significa:",
+    "answers": [
+      "Staccata dalle reti",
+      "Interconnettere sensori, decisori e attuatori per effetti sinergici",
+      "Uso esclusivo di reti civili",
+      "Solo addestramento digitale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La 'resilienza' organizzativa è:",
+    "answers": [
+      "Invarianza alle sollecitazioni",
+      "Capacità di adattarsi al contesto e reagire con soluzioni innovative",
+      "Semplice riduzione di costi",
+      "Riduzione del personale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La qualità che esprime la ragion d’essere dell’A.M. è:",
+    "answers": [
+      "Competenza nella dimensione aerospaziale",
+      "Competenza navale",
+      "Competenza terrestre",
+      "Competenza cibernetica esclusiva"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "L’etica, nel documento, è definita come:",
+    "answers": [
+      "Codice penale militare",
+      "Insieme di valori che armonizzano interessi individuali e bene comune",
+      "Manuale di procedure operative",
+      "Relazione tecnica"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La 'piramide dei valori' indica che ogni appartenente all’A.M. è prima:",
+    "answers": [
+      "Militare, poi cittadino, poi persona",
+      "Persona, poi cittadino, poi personale della Difesa e infine personale in azzurro",
+      "Cittadino, poi militare, poi persona",
+      "Personale della Difesa, poi persona"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La manifestazione dei valori avviene attraverso:",
+    "answers": [
+      "Dotazioni materiali",
+      "Comportamenti quotidiani e scelte",
+      "Procedure contabili",
+      "Uniformi e distintivi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La leadership militare è descritta come:",
+    "answers": [
+      "Autorità unidirezionale",
+      "Relazione di influenza reciproca tra capi e collaboratori per scopi condivisi",
+      "Solo carisma personale",
+      "Solo gestione amministrativa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "L’azione di comando è definita come:",
+    "answers": [
+      "Catalizzatore dell’efficacia dell’azione collettiva",
+      "Un adempimento burocratico",
+      "Un privilegio",
+      "Una sanzione"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Una buona azione di comando secondo il testo:",
+    "answers": [
+      "Si limita a impartire ordini",
+      "Coinvolge emotivamente e fa la differenza nella vita delle persone",
+      "Evita la condivisione di obiettivi",
+      "Punta solo ai risultati numerici"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Le 'caratteristiche' riguardano:",
+    "answers": [
+      "Le dotazioni logistiche",
+      "L’essere: qualità e peculiarità richieste al personale",
+      "Solo i gradi",
+      "Solo le abilitazioni di volo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tra le caratteristiche richieste rientrano:",
+    "answers": [
+      "Propensione al risultato, capacità di apprendere, affidabilità e flessibilità",
+      "Avversione alla tecnologia",
+      "Isolamento operativo",
+      "Rifiuto del lavoro di squadra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Lo spirito di corpo e il senso di appartenenza servono a:",
+    "answers": [
+      "Limitare la collaborazione",
+      "Promuovere e diffondere i valori dell’A.M.",
+      "Sostituire l’addestramento",
+      "Evitare l’innovazione"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La sensibilità interculturale è necessaria perché:",
+    "answers": [
+      "L’A.M. opera solo in Italia",
+      "Si interagisce in contesti multietnici e multinazionali (CIMIC)",
+      "Riduce la necessità di lingue straniere",
+      "Serve solo ai piloti"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Le 'competenze' comprendono:",
+    "answers": [
+      "Solo capacità fisiche",
+      "Conoscenze (sapere) e capacità (saper fare)",
+      "Solo titoli di studio",
+      "Solo brevetti di volo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tra le competenze di base indicate vi sono:",
+    "answers": [
+      "Gestione economica dei cantieri navali",
+      "Conoscenze di leadership/management, comunicazione, informatica e lingue",
+      "Solo diritto internazionale",
+      "Solo meccanica aeronautica"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La conoscenza delle lingue serve soprattutto a:",
+    "answers": [
+      "Operare fuori dai confini nazionali in contesti alleati/multinazionali",
+      "Redigere documenti interni",
+      "Evitare l’uso di interpreti in Italia",
+      "Studiare la storia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "La politica del personale mira a disporre di personale capace di:",
+    "answers": [
+      "Eseguire soltanto compiti ripetitivi",
+      "Comandare, controllare, cooperare, decidere tempestivamente, pianificare e gestire tecnologie",
+      "Operare solo con ordini scritti",
+      "Lavorare esclusivamente in autonomia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La 'palestra del pensiero' è:",
+    "answers": [
+      "Un corso ginnico",
+      "Uno spazio per idee e innovazione aperto a tutto il personale",
+      "Un centro esterno alla F.A.",
+      "Un simulatore di volo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il governo del personale è definito un’attività:",
+    "answers": [
+      "Marginale",
+      "Superiore, imprescindibile e strategica",
+      "Solo amministrativa",
+      "Sperimentale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Le tre fasi del governo del personale sono:",
+    "answers": [
+      "Assunzione, stipendio, pensione",
+      "Definire la politica; attuare tramite progetti/programma; misurare con indicatori",
+      "Formare; punire; premiare",
+      "Arruolare; addestrare; congedare"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tra le politiche di settore NON compare:",
+    "answers": [
+      "Ordinamento",
+      "Reclutamento e selezione",
+      "Trattamento economico",
+      "Politica energetica"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "L’ordinamento definisce:",
+    "answers": [
+      "Uniformi e gradi",
+      "Norme e provvedimenti per struttura/processi e responsabilità degli EdO",
+      "Solo missioni all’estero",
+      "Solo pianta organica dei piloti"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tra gli obiettivi della politica dell’ordinamento rientra:",
+    "answers": [
+      "Aumentare indiscriminatamente l’organico",
+      "Aderenza ai disposti di legge e soluzioni funzionali/standardizzate/sostenibili",
+      "Ridurre la standardizzazione",
+      "Evitare omologazioni"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tra le linee guida generali figura:",
+    "answers": [
+      "Ignorare i MOS",
+      "Applicare i MOS e proporre strutture snelle con organico minimo necessario",
+      "Eliminare la componente civile",
+      "Prevedere molti EdO per esigenze del personale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "'Need to share' rispetto a 'need to know' significa:",
+    "answers": [
+      "Segretezza assoluta",
+      "Diffusione delle informazioni abilitata dagli strumenti informatici per decisioni migliori",
+      "Condivisione solo a richiesta dei superiori",
+      "Condivisione solo a fine missione"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il Codice dell’Ordinamento Militare definisce 'formazione' come:",
+    "answers": [
+      "Addestramento pratico",
+      "Processo di educazione e preparazione culturale/etica/morale/tecnico-professionale",
+      "Solo corsi di lingua",
+      "Solo lezioni frontali"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "L’'addestramento' è:",
+    "answers": [
+      "Processo per sviluppare abilità/capacità attraverso esercitazioni, abilitazioni e specializzazioni",
+      "Solo teoria",
+      "Solo sport",
+      "Solo simulazione al computer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Tra gli obiettivi della politica della formazione figura:",
+    "answers": [
+      "Ridurre l’efficienza fisica",
+      "Sviluppare etica e militarità; capacità di comando; lavoro di squadra; propensione al risultato; agilità culturale",
+      "Evitare l’inglese",
+      "Limitare l’uso delle tecnologie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Una linea guida generale della formazione prevede:",
+    "answers": [
+      "Ridurre il bagaglio culturale",
+      "Infondere valori fondanti e fornire solida preparazione teorica e buona padronanza dell’inglese",
+      "Concentrare tutto sul pilotaggio",
+      "Formazione solo per ufficiali"
+    ],
+    "correctIndex": 1
+  },
+  {
     "question": "Quale articolo cita espressamente sostegno a famiglia, maternità, infanzia e gioventù?",
     "answers": [
       "Art. 29",

@@ -1,5 +1,1075 @@
 [
   {
+    "question": "Il rumore è:",
+    "answers": [
+      "Una corrente elettrica",
+      "Un fenomeno ondulatorio: propagazione di onde di pressione in un mezzo elastico",
+      "Una radiazione ottica",
+      "Un moto rettilineo uniforme"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Le grandezze fisiche del rumore sono:",
+    "answers": [
+      "Frequenza e intensità",
+      "Lumen e lux",
+      "Temperatura e umidità",
+      "Volt e ampere"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "La frequenza si misura in:",
+    "answers": [
+      "Decibel (dB)",
+      "Hertz (Hz)",
+      "Watt (W)",
+      "Lux (lx)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "L’intensità sonora percepita come 'forte/piano' si esprime comunemente in:",
+    "answers": [
+      "Pascal",
+      "Hertz",
+      "Decibel A-ponderati dB(A)",
+      "Tesla"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Art. 192 D.Lgs. 81/08 impone al Datore di Lavoro di:",
+    "answers": [
+      "Dotare tutti di cuffie",
+      "Eliminare o ridurre il rischio alla fonte con misure tecniche/organizzative/procedurali",
+      "Delegare tutto al RLS",
+      "Solo formare i lavoratori"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Esempio di misura tecnica per il rumore trasmesso per via aerea:",
+    "answers": [
+      "Materiali fonoassorbenti (schermature/involucri)",
+      "Rotazione del personale",
+      "Pause più lunghe",
+      "Raffrescamento microclima"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Esempio di misura contro il rumore strutturale:",
+    "answers": [
+      "Sistemi di smorzamento o isolamento",
+      "Occhiali protettivi",
+      "Guanti antitaglio",
+      "Pulizia pavimenti"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Tra le azioni di organizzazione del lavoro (art. 192) rientra:",
+    "answers": [
+      "Aumentare turni notturni",
+      "Programmi di manutenzione",
+      "Ridurre la formazione",
+      "Alzare il volume di allarme"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Effetto uditivo tipico del rumore:",
+    "answers": [
+      "Ipoacusia da lesione delle cellule ciliate (inizio 4–6 kHz)",
+      "Miopia",
+      "Dermatite",
+      "Gastrite acuta"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Art. 190 — quando misurare i livelli di rumore?",
+    "answers": [
+      "Sempre e comunque",
+      "Quando si può fondatamente ritenere superati i valori inferiori di azione",
+      "Solo su richiesta del lavoratore",
+      "Solo in caso di infortunio"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Se in nessuna postazione si superano gli 80 dB(A):",
+    "answers": [
+      "Si deve comunque misurare",
+      "Si può motivare nel DVR che non sono necessarie misure",
+      "Si sospendono le attività",
+      "Si forniscono DPI obbligatori"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Nella misura del rumore si utilizzano metodi e strumentazione:",
+    "answers": [
+      "Casuali",
+      "Adeguati a caratteristiche del rumore, durata di esposizione e fattori ambientali",
+      "Solo indicativi",
+      "Solo cuffie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Classi di rischio: 'Rischio Assente' per LEX:",
+    "answers": [
+      "< 70 dB(A)",
+      "< 75 dB(A)",
+      "< 80 dB(A)",
+      "< 85 dB(A)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Classi di rischio: 'Rischio Grave' per LEX o Lpeak:",
+    "answers": [
+      "> 87 dB(A) o > 140 dB(C)",
+      "> 90 dB(A) o > 150 dB(C)",
+      "> 85 dB(A) o > 135 dB(C)",
+      "> 100 dB(A) o > 160 dB(C)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Formazione specifica sul rumore (art. 195):",
+    "answers": [
+      "Per tutti",
+      "Per esposti a LEX,8h ≥ 80 dB(A)",
+      "Solo per LEX ≥ 87 dB(A)",
+      "Solo per reparti industriali"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "DPI uditivi (art. 193):",
+    "answers": [
+      "Mai obbligatori",
+      "Si mettono a disposizione quando si superano i valori inferiori di azione; uso obbligatorio ai valori superiori",
+      "Solo su richiesta del medico",
+      "Obbligo sempre"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La vibrazione è:",
+    "answers": [
+      "Una corrente alternata",
+      "Un’oscillazione meccanica rispetto a un punto di riferimento",
+      "Un campo magnetico",
+      "Un fenomeno termico"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Titolo VIII Capo III del D.Lgs. 81/08 riguarda:",
+    "answers": [
+      "Rumore",
+      "Vibrazioni",
+      "Radiazioni ottiche",
+      "Campi EM"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fonti tipiche di HAV (mano-braccio):",
+    "answers": [
+      "Monitor e stampanti",
+      "Motoseghe, smerigliatrici, martelli demolitori, trapani a percussione",
+      "Lampade LED",
+      "Condizionatori"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Patologie da HAV includono:",
+    "answers": [
+      "Dito bianco (Raynaud), neuropatie sensitivo-periferiche, lesioni osteoarticolari",
+      "Scoliosi cervicale",
+      "Otiti",
+      "Dermatiti da contatto"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Effetti da WBV (corpo intero) certi:",
+    "answers": [
+      "Miopia",
+      "Patologie del rachide lombare",
+      "Ulcere cutanee",
+      "Ipoacusia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Valori d’azione giornalieri (8h): HAV / WBV:",
+    "answers": [
+      "5 m/s² e 1,5 m/s²",
+      "2,5 m/s² e 0,5 m/s²",
+      "1,0 m/s² e 0,2 m/s²",
+      "20 m/s² e 2,0 m/s²"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Valori limite di esposizione giornalieri (8h): HAV / WBV:",
+    "answers": [
+      "2,5 m/s² e 0,5 m/s²",
+      "5,0 m/s² e 1,0 m/s²",
+      "10 m/s² e 1,5 m/s²",
+      "1,5 m/s² e 0,8 m/s²"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In caso di variabilità dell’esposizione giornaliera alle vibrazioni:",
+    "answers": [
+      "Si considera la media settimanale",
+      "Si considera il livello giornaliero massimo ricorrente",
+      "Si ignora la variabilità",
+      "Si usa il valore minimo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In assenza di legge, per l’illuminazione dei posti di lavoro si fa riferimento a:",
+    "answers": [
+      "Codice civile",
+      "Norme tecniche UNI EN 12464-1",
+      "Decreto interministeriale 2001",
+      "ISO 9001"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Grandezza che misura la potenza luminosa emessa:",
+    "answers": [
+      "Lux",
+      "Lumen",
+      "Candela/m²",
+      "Ampere"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Grandezza che misura la quantità di luce su una superficie:",
+    "answers": [
+      "Lumen",
+      "Lux",
+      "Volt",
+      "Hertz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La luminanza (cd/m²) è:",
+    "answers": [
+      "Quantità di luce nell’aria",
+      "Luce riflessa/emessa da una superficie che incide sulla percezione e sull’abbagliamento",
+      "Solo la potenza della lampada",
+      "Illuminamento del soffitto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Esempio di abbagliamento:",
+    "answers": [
+      "Forte luce localizzata su area di lavoro in ambiente scuro",
+      "Uniformità luminosa",
+      "Pareti a tinta scura opaca",
+      "Luci indirette diffuse"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "La luce in ambiente di lavoro si verifica con:",
+    "answers": [
+      "Voltmetro",
+      "Luxmetro",
+      "Oscilloscopio",
+      "Fonometro"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il Titolo VII del D.Lgs. 81/08 (art. 172–179) riguarda:",
+    "answers": [
+      "Attrezzature munite di videoterminali",
+      "Agenti chimici",
+      "Rumore",
+      "Cantieri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Obblighi del DL per VDT:",
+    "answers": [
+      "Solo consegna PC",
+      "Valutare rischio, organizzare posti secondo all. XXXIV, sorveglianza sanitaria, informazione/formazione, pause",
+      "Solo DPI oculari",
+      "Nessuno specifico"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Uso 'prolungato' di portatili:",
+    "answers": [
+      "Sempre ammesso senza accorgimenti",
+      "Richiede tastiera/mouse esterni e supporto per posizionare lo schermo correttamente",
+      "Vietato",
+      "Basta alzare la luminosità"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Pause al VDT: salvo diversa contrattazione, ogni quanto?",
+    "answers": [
+      "5’ ogni ora",
+      "15’ ogni 120’ di lavoro continuativo al VDT",
+      "30’ ogni 4 ore",
+      "15’ ogni 60’"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Le pause al VDT:",
+    "answers": [
+      "Si possono cumulare a inizio/fine turno",
+      "Non si possono cumulare e vanno dedicate a compiti non VDT",
+      "Sono facoltative",
+      "Si fanno davanti allo schermo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il 'posto di lavoro' al VDT (art. 173) include:",
+    "answers": [
+      "Solo PC e sedia",
+      "Attrezzature VDT, tastiera/mouse, software, accessori, apparecchiature connesse, sedia, piano di lavoro e ambiente circostante",
+      "Solo monitor e tastiera",
+      "Solo software"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Schermo: posizione corretta:",
+    "answers": [
+      "Lato superiore sotto il livello occhi e perpendicolare alla linea di visione, senza riflessi",
+      "Sempre molto in alto",
+      "Sempre molto in basso",
+      "Inclinato a caso"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Schermo: requisiti:",
+    "answers": [
+      "Non regolabile",
+      "Regolabile in posizione/altezza/inclinazione; caratteri leggibili senza sfarfallii",
+      "Solo grande",
+      "Solo opaco"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Regolazioni utente:",
+    "answers": [
+      "Non ammesse",
+      "Luminosità, contrasto, saturazione colori regolabili",
+      "Solo luminosità",
+      "Solo contrasto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tastiera:",
+    "answers": [
+      "Integrata e fissa",
+      "Separata dallo schermo, inclinabile, opaca, simboli leggibili; spazio per appoggiare avambracci",
+      "Senza simboli",
+      "In vetro lucido"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Mouse/dispositivo di puntamento:",
+    "answers": [
+      "In un cassetto",
+      "Sul medesimo piano della tastiera, facilmente raggiungibile, con spazio operativo adeguato",
+      "A sinistra obbligatorio",
+      "Sopra lo schermo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Piano di lavoro (all. XXXIV):",
+    "answers": [
+      "Riflettente e stretto",
+      "A basso indice di riflessione, stabile, dimensioni sufficienti, profondità per distanza visiva; altezza indicativa 70–80 cm",
+      "Altezza fissa 65 cm",
+      "Solo vetro"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Sedile di lavoro (all. XXXIV):",
+    "answers": [
+      "Base a 5 razze, regolazioni altezza e schienale, supporto lombare; materiali traspiranti, bordi smussati",
+      "Sgabello fisso",
+      "Sedia pieghevole",
+      "Solo senza braccioli"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Poggiapiedi:",
+    "answers": [
+      "Sempre obbligatorio",
+      "Fornito a richiesta/necessità per garantire postura adeguata arti inferiori",
+      "Vietato",
+      "Solo per dirigenti"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Angoli consigliati: ginocchia e caviglie:",
+    "answers": [
+      "120°",
+      "90° circa",
+      "60°",
+      "180°"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Braccia/avambracci durante digitazione:",
+    "answers": [
+      "Avambracci sospesi",
+      "Gomito ~90°, avambracci paralleli al piano e appoggiati",
+      "Gomito 30°",
+      "Solo braccioli"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Polsi durante digitazione:",
+    "answers": [
+      "In iperestensione",
+      "Dritti, senza deviazioni laterali/verticali; non digitare in appoggio sui polsi",
+      "Sempre appoggiati",
+      "In abduzione"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Chi ha l’obbligo indelegabile di effettuare la valutazione dei rischi (art. 17 D.Lgs. 81/08)?",
+    "answers": [
+      "Il RSPP",
+      "Il Datore di Lavoro",
+      "Il Medico Competente",
+      "Il RLS"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Con chi elabora il Datore di Lavoro il DVR?",
+    "answers": [
+      "Solo con i consulenti esterni",
+      "Con RSPP/ASPP, Medico Competente e RLS",
+      "Con i dirigenti di reparto",
+      "Con il preposto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Obiettivo principale della valutazione dei rischi è:",
+    "answers": [
+      "Eliminare ogni attività produttiva",
+      "Consentire provvedimenti necessari a salvaguardare salute e sicurezza dei lavoratori",
+      "Ridurre i costi assicurativi",
+      "Sostituire la formazione"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tra i provvedimenti conseguenti alla valutazione figurano:",
+    "answers": [
+      "Solo acquisto DPI",
+      "Prevenzione, protezione, informazione/formazione",
+      "Sanzioni disciplinari",
+      "Rotazione del personale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il 'pericolo' è definito come:",
+    "answers": [
+      "Probabilità di danno nel tempo",
+      "Proprietà intrinseca di un fattore potenzialmente dannoso",
+      "Danno effettivo subito",
+      "Esito di un infortunio"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il 'rischio' è:",
+    "answers": [
+      "Esposizione a qualunque attività",
+      "Probabilità di raggiungere il livello potenziale di danno nelle condizioni di impiego/esposizione",
+      "La sola entità del danno",
+      "Un evento certo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La relazione di stima del rischio comunemente adottata è:",
+    "answers": [
+      "R = D / P",
+      "R = P x D",
+      "R = P + D",
+      "R = P - D"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Nella matrice R = P x D, 'P' rappresenta:",
+    "answers": [
+      "Parametro di prevenzione",
+      "Probabilità che si verifichi un incidente",
+      "Protezione disponibile",
+      "Prestazioni del reparto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Nella matrice R = P x D, 'D' rappresenta:",
+    "answers": [
+      "Danno/gravità delle conseguenze",
+      "Durata del turno",
+      "Densità del materiale",
+      "Dislocazione del personale"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Nella scala di probabilità, '1' corrisponde a:",
+    "answers": [
+      "Improbabile",
+      "Poco probabile",
+      "Probabile",
+      "Altamente probabile"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Nella scala di danno, '4' corrisponde a:",
+    "answers": [
+      "Lieve",
+      "Medio",
+      "Grave",
+      "Gravissimo"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Se P=3 e D=2, il valore di R è:",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Una combinazione P=4 e D=4 ricade tipicamente in:",
+    "answers": [
+      "Rischio basso",
+      "Rischio medio",
+      "Rischio alto",
+      "Rischio trascurabile"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Secondo la tabella, un rischio con R compreso tra 1 e 1 è classificato:",
+    "answers": [
+      "Basso",
+      "Medio",
+      "Molto basso",
+      "Alto"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Per valori 2 ≤ R ≤ 4 la priorità d’intervento è:",
+    "answers": [
+      "Applicare immediatamente",
+      "Applicare con urgenza",
+      "Valutare in programmazione",
+      "Applicare a medio termine"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Per valori 5 ≤ R ≤ 9 la priorità è:",
+    "answers": [
+      "Con urgenza",
+      "Immediata",
+      "Programmabile",
+      "Nessuna azione"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Per valori 10 ≤ R ≤ 16 la priorità è:",
+    "answers": [
+      "A medio termine",
+      "Immediata",
+      "Senza urgenza",
+      "Solo formazione"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La prevenzione è:",
+    "answers": [
+      "Misure per ridurre l’entità del danno quando l’evento si manifesta",
+      "Insieme di misure per rendere meno probabile l’esposizione ai rischi",
+      "Dispositivo di protezione individuale",
+      "Solo addestramento operativo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La protezione è:",
+    "answers": [
+      "Misure per assicurare l’incolumità e contenere l’entità del danno in caso di esposizione",
+      "Solo formazione",
+      "Un audit ispettivo",
+      "Sostituzione di una macchina"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Secondo le slide, le attività di protezione sono:",
+    "answers": [
+      "Primarie rispetto alla prevenzione",
+      "Secondarie rispetto alla prevenzione",
+      "Indipendenti dalla prevenzione",
+      "Alternative alla prevenzione"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Esempio di protezione collettiva è:",
+    "answers": [
+      "Sostituzione di una sostanza pericolosa",
+      "Cappa di aspirazione",
+      "Formazione del personale",
+      "Lockout/tagout"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tra gli esempi di protezione citati figurano anche:",
+    "answers": [
+      "Airbag e barre anti intrusione",
+      "Riduzione del carico di lavoro",
+      "Segnaletica di sicurezza come unica misura",
+      "Eliminazione di un reparto"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "L’'infortunio' secondo UNI 7249/2007 è:",
+    "answers": [
+      "Qualunque malattia comune",
+      "Evento lesivo per causa violenta in occasione di lavoro con morte o inabilità (temp. o permanente) oltre il restante turno",
+      "Solo incidente senza conseguenze",
+      "Malattia a lungo termine"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La 'malattia professionale' insorge:",
+    "answers": [
+      "Sempre immediatamente",
+      "Per esposizioni prolungate (polveri, solventi, rumore, vibrazioni, ecc.) anche a distanza di tempo",
+      "Solo per eventi traumatici",
+      "Solo per agenti biologici"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Esempi di prevenzione includono:",
+    "answers": [
+      "Formazione, informazione, addestramento, segnaletica, taratura periodica di strumenti/dispositivi",
+      "Uso di airbag",
+      "Rete antincendio",
+      "DPI obbligatori"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Esempi di protezione includono:",
+    "answers": [
+      "Procedure operative standard",
+      "DPC, DPI, soccorso sanitario, rete antincendio",
+      "Audit interni",
+      "Sorveglianza sanitaria preventiva"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "I 'rischi per la sicurezza' sono:",
+    "answers": [
+      "Rischi di infortuni e incidenti per eventi traumatici/errate modalità operative",
+      "Rischi a lungo termine dovuti ad agenti chimici",
+      "Rischi ambientali esterni",
+      "Rischi economici"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "I 'rischi per la salute' sono legati a:",
+    "answers": [
+      "Fattori finanziari",
+      "Esposizione a agenti chimici/fisici/biologici con effetti sul lungo periodo",
+      "Solo posture scorrette",
+      "Solo stress"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Esempi di 'rischi per la sicurezza' includono:",
+    "answers": [
+      "Radiazioni ionizzanti",
+      "Scale portatili, superfici scivolose, macchine e impianti",
+      "Amianto e solventi",
+      "Virus e batteri"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Tra le fonti di rischi per la salute rientrano:",
+    "answers": [
+      "Agenti cancerogeni e amianto",
+      "Passerelle e cunicoli",
+      "Comandi non ergonomici",
+      "Illuminazione errata"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "I 'rischi trasversali/organizzativi' riguardano soprattutto:",
+    "answers": [
+      "Emergenze improvvise",
+      "Problemi per la salute a lungo termine (es. fattori psicologici ed ergonomici)",
+      "Solo incendi",
+      "Solo elettricità"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Esempi di rischi trasversali organizzativi:",
+    "answers": [
+      "Ambiguità di ruolo, conflittualità, stress lavoro-correlato/burnout; postazioni scomode, illuminazione errata",
+      "Rumore e vibrazioni",
+      "Amianto",
+      "Scale e passerelle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Se un’attività ha P=2 e D=3, il rischio è:",
+    "answers": [
+      "R=4 (basso)",
+      "R=6 (medio)",
+      "R=8 (alto)",
+      "R=5 (medio)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Per un rischio 'medio' (5 ≤ R ≤ 9) la misura suggerita è:",
+    "answers": [
+      "Programmare miglioramenti con urgenza",
+      "Applicare miglioramenti immediatamente",
+      "Solo monitorare",
+      "Rinviare all’anno successivo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Se R risulta 'molto basso', la linea guida è:",
+    "answers": [
+      "Nessun miglioramento consentito",
+      "Miglioramenti da valutare in programmazione",
+      "Fermare l’attività",
+      "Obbligo di DPC e DPI"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Secondo art. 74 D.Lgs. 81/08, per DPI si intende:",
+    "answers": [
+      "Qualsiasi attrezzatura assegnata ai soli preposti",
+      "Qualsiasi attrezzatura indossata/tenuta dal lavoratore per proteggerlo da uno o più rischi, inclusi complementi e accessori",
+      "Solo caschi e guanti certificati",
+      "Ogni strumento usato in azienda"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Quale tra i seguenti NON è DPI ai sensi dell’art. 74?",
+    "answers": [
+      "Imbracatura anticaduta",
+      "Uniforme ordinaria non specificamente destinata alla protezione",
+      "Respiratore filtrante",
+      "Occhiali protettivi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Non sono DPI:",
+    "answers": [
+      "Materiali sportivi usati a fini lavorativi",
+      "Attrezzature di protezione delle forze armate/polizia per ordine pubblico",
+      "DPI per l’udito",
+      "Calzature antinfortunistiche"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Gli apparecchi portatili per individuare e segnalare rischi e fattori nocivi:",
+    "answers": [
+      "Sono DPI",
+      "Non rientrano tra i DPI",
+      "Sono DPI di I categoria",
+      "Sono DPI solo in cantiere"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "I DPI si impiegano:",
+    "answers": [
+      "Sempre e comunque",
+      "Quando i rischi non possono essere evitati o sufficientemente ridotti con prevenzione/DPC/riorganizzazione del lavoro",
+      "Solo su richiesta del lavoratore",
+      "Solo in emergenza"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "L’ordine di priorità nella riduzione del rischio è:",
+    "answers": [
+      "Protezione → Prevenzione → Eliminazione",
+      "Eliminazione → Prevenzione → Protezione",
+      "Prevenzione → Protezione → Eliminazione",
+      "Formazione → DPI → DPC"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "I DPI sono classificati:",
+    "answers": [
+      "In due categorie",
+      "In tre categorie in base al livello di rischio",
+      "In quattro categorie",
+      "Senza categorie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Rientra tipicamente nella I categoria:",
+    "answers": [
+      "Imbracatura anticaduta",
+      "Protezione da fenomeni atmosferici o urti lievi",
+      "Autorespiratore",
+      "Guanti ignifughi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Rientra tipicamente nella II categoria:",
+    "answers": [
+      "Occhiali, elmetti, guanti e calzature antinfortunistiche",
+      "Solo tappi auricolari",
+      "Solo protezioni respiratorie",
+      "Tutti i DPI anticaduta"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Esempio di III categoria:",
+    "answers": [
+      "Giubbetto alta visibilità",
+      "Imbracatura con sistema anticaduta o autorespiratore",
+      "Occhiali protettivi base",
+      "Guanti monouso per uso generico"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Per i DPI di III categoria e per i DPI dell’udito:",
+    "answers": [
+      "Non serve addestramento",
+      "È previsto addestramento specifico obbligatorio",
+      "Basta un volantino informativo",
+      "Decide il lavoratore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La classificazione generale dei DPI per tipologia di protezione include:",
+    "answers": [
+      "Solo capo e mani",
+      "Arti superiori/inferiori; occhi/viso; udito; capo; vie respiratorie; corpo/pelle; cadute dall’alto; visibilità",
+      "Solo respirazione e vista",
+      "Solo capo e cadute"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Un DPI a norma deve:",
+    "answers": [
+      "Avere marcatura CE, istruzioni chiare, adeguatezza al rischio e alle condizioni di lavoro, rispetto ergonomia/salute",
+      "Essere di marca nota",
+      "Essere scelto dal lavoratore",
+      "Essere il più costoso"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "La documentazione del fabbricante deve essere:",
+    "answers": [
+      "Solo in inglese",
+      "In lingua comprensibile al lavoratore",
+      "Facoltativa",
+      "Riservata al RSPP"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Nella scelta dei DPI, il Datore di Lavoro deve:",
+    "answers": [
+      "Chiedere il preventivo più basso",
+      "Analizzare i rischi residui, individuare caratteristiche dei DPI, confrontare offerte con istruzioni del fabbricante e aggiornare la scelta al variare dei rischi",
+      "Delegare tutto al RLS",
+      "Seguire l’uso comune del mercato"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il Datore di Lavoro deve assicurare:",
+    "answers": [
+      "Uso libero a discrezione del lavoratore",
+      "Manutenzione/igiene, uso conforme, istruzioni comprensibili, informazione sui rischi, procedure di consegna/riconsegna",
+      "Solo consegna iniziale",
+      "Solo registro carico/scarico"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In funzione di rischio/esposizione/posto di lavoro/prestazioni del DPI, il Datore di Lavoro:",
+    "answers": [
+      "Stabilisce le condizioni e la durata d’uso",
+      "Lascia decidere al preposto",
+      "Affida al medico competente",
+      "Non può intervenire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "I lavoratori devono:",
+    "answers": [
+      "Personalizzare il DPI a piacimento",
+      "Usare i DPI conformemente a info/formazione/addestramento; curarli; non modificarli; seguire le procedure di riconsegna; segnalare difetti",
+      "Decidere quali DPI usare",
+      "Tenere il DPI a casa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Sull’addestramento:",
+    "answers": [
+      "È facoltativo",
+      "I lavoratori devono sottoporsi alla formazione/addestramento organizzati dal Datore di Lavoro",
+      "Riguarda solo i preposti",
+      "È solo e-learning"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "I DPC sono:",
+    "answers": [
+      "Dispositivi di Protezione Collettiva che intervengono sulla fonte o sull’ambiente proteggendo più lavoratori",
+      "Solo barriere fisiche per macchine",
+      "Un tipo di DPI",
+      "Sistemi di allarme portatili"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Esempi di DPC includono:",
+    "answers": [
+      "Ventilazione/aspirazione locali, parapetti, carter e interblocchi",
+      "Guanti e caschi",
+      "Imbracature e cordini",
+      "Mascherine filtranti"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "La priorità legale tra DPC e DPI è:",
+    "answers": [
+      "DPI prima di DPC",
+      "DPC prioritari rispetto ai DPI",
+      "Indifferente",
+      "Dipende dal lavoratore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il Datore di Lavoro deve fornire DPI conformi ai requisiti dell’art.:",
+    "answers": [
+      "76 del D.Lgs. 81/08",
+      "15 del D.Lgs. 81/08",
+      "32 del D.Lgs. 81/08",
+      "74 del D.Lgs. 81/08"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Quando più persone usano lo stesso DPI:",
+    "answers": [
+      "È vietato in assoluto",
+      "Si adottano misure igieniche adeguate per evitare problemi sanitari",
+      "Si lascia libertà d’uso",
+      "Serve solo un registro firme"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La scelta dei DPI va aggiornata:",
+    "answers": [
+      "Ogni 10 anni",
+      "Quando interviene una variazione significativa negli elementi di valutazione del rischio",
+      "Solo a fine anno",
+      "Mai"
+    ],
+    "correctIndex": 1
+  },
+  {
     "question": "L’Accordo Stato-Regioni del 21 dicembre 2011 ha stabilito:",
     "answers": [
       "Le linee guida per l’organizzazione dei corsi di formazione per i lavoratori in materia di sicurezza",

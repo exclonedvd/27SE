@@ -1,5 +1,495 @@
 [
      {
+    "question": "(DPM) Nell'ordinamento militare, per “alto tradimento” ai sensi dell'art. 77 c.p.m.p. si intende:",
+    "answers": [
+      "il complesso dei delitti contro la personalità dello Stato previsti dal codice penale, quando siano commessi da un militare",
+      "ogni condotta del militare che violi il giuramento di fedeltà, anche se non integra un delitto contro la personalità dello Stato",
+      "qualsiasi collaborazione, anche colposa, con militari di Stati stranieri",
+      "solo il passaggio volontario del militare al nemico in tempo di guerra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(DPM) Il soggetto attivo del reato di alto tradimento, previsto dall'art. 77 c.p.m.p., è:",
+    "answers": [
+      "solo il militare, in servizio o considerato in servizio alle armi dalla legge",
+      "chiunque, militare o civile",
+      "esclusivamente i pubblici ufficiali non militari",
+      "solo i militari in tempo di guerra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(DPM) Dal punto di vista della sua natura giuridica, l'alto tradimento nel codice penale militare di pace è:",
+    "answers": [
+      "un reato militare proprio, che presuppone la qualità di militare del soggetto attivo",
+      "un reato comune, applicabile anche ai civili",
+      "una semplice infrazione disciplinare di particolare gravità",
+      "un illecito amministrativo sanzionato con la sola perdita del grado"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(DPM) L'alto tradimento è ricompreso, nella sistematica del codice penale militare di pace, tra:",
+    "answers": [
+      "i reati contro la fedeltà e la difesa militare",
+      "i reati contro la disciplina militare",
+      "i reati contro il servizio militare",
+      "i reati contro il patrimonio dello Stato"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(DPM) In linea generale, il reato di allontanamento illecito è configurato quando il militare:",
+    "answers": [
+      "essendo legittimamente assente, non si presenta, senza giustificato motivo, nel giorno successivo a quello prefissato per il rientro",
+      "si assenta per più di cinque giorni dal reparto senza autorizzazione, con l'intenzione di sottrarsi definitivamente al servizio",
+      "rifiuta di eseguire un ordine di servizio, pur rimanendo presente al reparto",
+      "collabora con un militare straniero in operazioni non autorizzate"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(DPM) Tra i reati di assenza dal servizio alle armi, quello generalmente considerato meno grave è:",
+    "answers": [
+      "l'allontanamento illecito",
+      "la diserzione",
+      "la mancanza alla chiamata",
+      "la rivolta"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(DPM) In cosa si differenzia, in linea di massima, la diserzione dall'allontanamento illecito?",
+    "answers": [
+      "per la maggiore durata e gravità dell'assenza e per la più intensa volontà di sottrarsi al servizio militare",
+      "solo per il grado rivestito dal militare",
+      "unicamente per il fatto che la diserzione è punita con la sospensione disciplinare",
+      "per il diverso soggetto competente a giudicare (giudice ordinario anziché militare)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(DPM) In tempo di pace, la diserzione è, in via ordinaria, punita:",
+    "answers": [
+      "con la reclusione militare da sei mesi a due anni, salvo aggravanti o attenuanti",
+      "con la sola sanzione disciplinare di corpo",
+      "con l'ammenda militare fino a sei mesi di stipendio",
+      "esclusivamente con la perdita del grado"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(DPM) Per i reati di diserzione, di mancanza alla chiamata e di allontanamento illecito è competente:",
+    "answers": [
+      "il tribunale militare del luogo in cui ha sede il corpo o reparto al quale l'imputato apparteneva o avrebbe dovuto presentarsi",
+      "sempre e solo il tribunale militare di Roma",
+      "il tribunale ordinario del luogo di residenza del militare",
+      "il comandante di corpo, in via esclusiva"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(DPM) Quanto alla prescrizione, la disciplina speciale che fa decorrere il termine, se l'assenza perdura, dal giorno in cui il militare compie l'età per la cessazione assoluta dell'obbligo di servizio si applica:",
+    "answers": [
+      "ai reati di diserzione e di mancanza alla chiamata, ma non all'allontanamento illecito",
+      "solo al reato di allontanamento illecito",
+      "a tutti i reati militari, nessuno escluso",
+      "solo ai reati di alto tradimento"
+    ],
+    "correctIndex": 0
+  },
+     {
+    "question": "(SL) Il D.Lgs. 81/08 è conosciuto come:",
+    "answers": [
+      "Codice penale militare di pace.",
+      "Testo unico in materia di salute e sicurezza nei luoghi di lavoro.",
+      "Testo unico sull’ordinamento militare.",
+      "Testo unico sul pubblico impiego."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) L’articolo 2 del D.Lgs. 81/08 contiene principalmente:",
+    "answers": [
+      "L’elenco delle sanzioni penali per i datori di lavoro.",
+      "Le definizioni delle principali figure della sicurezza.",
+      "I limiti di esposizione al rumore per i lavoratori.",
+      "Le procedure disciplinari per il personale militare."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) Il Titolo I del D.Lgs. 81/08 disciplina:",
+    "answers": [
+      "Solo l’uso dei dispositivi di protezione individuale.",
+      "Esclusivamente i rischi derivanti da agenti fisici.",
+      "I principi comuni in materia di salute e sicurezza nei luoghi di lavoro.",
+      "Le norme sul lavoro minorile."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) Nel D.Lgs. 81/08, gli obblighi previsti dall’art. 18 riguardano:",
+    "answers": [
+      "Solo il medico competente.",
+      "Unicamente il datore di lavoro.",
+      "Il datore di lavoro e i dirigenti.",
+      "Esclusivamente i preposti."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) Nel contesto della Difesa, l’applicazione del D.Lgs. 81/08 è coordinata in particolare con:",
+    "answers": [
+      "Il Codice Penale Militare di Guerra.",
+      "Il D.P.R. 90/2010 (Testo unico sull’ordinamento militare).",
+      "La Costituzione, articolo 52.",
+      "Il D.P.R. 164/1956."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) Quale attività rientra tra gli obblighi NON delegabili del datore di lavoro (art. 17 D.Lgs. 81/08)?",
+    "answers": [
+      "La consegna dei DPI ai lavoratori.",
+      "La valutazione di tutti i rischi con elaborazione del DVR.",
+      "La programmazione delle visite mediche.",
+      "La gestione del magazzino antincendio."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) Qual è l’altro obbligo non delegabile del datore di lavoro ai sensi dell’art. 17?",
+    "answers": [
+      "La scelta delle attrezzature di lavoro meno rumorose.",
+      "La nomina del medico competente.",
+      "La designazione del responsabile del servizio di prevenzione e protezione (RSPP).",
+      "La scelta dei luoghi di lavoro."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) Quale delle seguenti attività il datore di lavoro può delegare?",
+    "answers": [
+      "La valutazione di tutti i rischi con elaborazione del DVR.",
+      "La designazione del RSPP.",
+      "La designazione degli addetti alla gestione delle emergenze.",
+      "La decisione di non fare la valutazione dei rischi."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) È considerato “lavoratore” ai sensi dell’art. 2 D.Lgs. 81/08:",
+    "answers": [
+      "Solo chi ha un contratto a tempo indeterminato.",
+      "Solo chi percepisce una retribuzione mensile.",
+      "La persona che svolge un’attività nell’organizzazione di un datore di lavoro, con o senza retribuzione, esclusi gli addetti ai servizi domestici e familiari.",
+      "Solo il personale assunto con contratto militare."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) Il “dirigente” è la persona che:",
+    "answers": [
+      "Esegue le direttive del preposto senza autonomia.",
+      "Svolge solo funzioni sindacali.",
+      "In ragione di competenze e poteri, attua le direttive del datore di lavoro organizzando l’attività e vigilando su di essa.",
+      "Vigila solo sull’uso dei DPI."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) Il “preposto” è la persona che:",
+    "answers": [
+      "Predispone il DVR.",
+      "Sovrintende all’attività lavorativa, garantisce l’attuazione delle direttive e controlla la corretta esecuzione, esercitando un potere di iniziativa.",
+      "Svolge compiti sanitari.",
+      "Gestisce solo il personale amministrativo."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) Quale figura è spesso identificata come “caposquadra” con poteri di supervisione su un gruppo di lavoratori?",
+    "answers": [
+      "Il medico competente.",
+      "Il rappresentante dei lavoratori per la sicurezza (RLS).",
+      "Il preposto.",
+      "Il RSPP."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) Quale affermazione sui compiti del dirigente è corretta?",
+    "answers": [
+      "Deve solo segnalare i rischi al preposto.",
+      "Valuta le capacità dei lavoratori, li assegna a mansioni adeguate e cura informazione, formazione e vigilanza.",
+      "Non partecipa all’attuazione delle misure di sicurezza.",
+      "Non ha rapporti con il datore di lavoro in materia di sicurezza."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) Quale affermazione sui compiti del preposto è corretta (art. 19 D.Lgs. 81/08)?",
+    "answers": [
+      "Può ignorare i comportamenti pericolosi se non causano infortuni immediati.",
+      "Verifica che i lavoratori osservino le misure di sicurezza e, se necessario, segnala le anomalie e può far interrompere le lavorazioni.",
+      "Si occupa solo dell’acquisto dei DPI.",
+      "Redige il D.P.R. 90/2010."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) Chi designa gli addetti alla gestione delle emergenze (primo soccorso, antincendio, evacuazione)?",
+    "answers": [
+      "Il medico competente.",
+      "Il datore di lavoro.",
+      "Il RLS.",
+      "L’RSPP."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) In generale, un lavoratore designato come addetto alle emergenze:",
+    "answers": [
+      "Può rifiutare la nomina liberamente e senza motivazione.",
+      "Può rifiutare solo per giustificato motivo.",
+      "Deve sempre rifiutare per evitare responsabilità.",
+      "È esonerato dalla formazione specifica."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) Cosa si intende per DPI?",
+    "answers": [
+      "Qualsiasi macchinario presente nel luogo di lavoro.",
+      "Qualsiasi attrezzatura collettiva che protegge più lavoratori.",
+      "Qualsiasi attrezzatura destinata ad essere indossata e tenuta dal lavoratore per proteggerlo contro uno o più rischi.",
+      "Qualsiasi uniforme prevista dal regolamento di corpo."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) Quale tra i seguenti NON è considerato DPI:",
+    "answers": [
+      "Indumenti di lavoro ordinari e uniformi non specificamente destinati alla tutela di sicurezza e salute.",
+      "Casco di protezione per il capo.",
+      "Occhiali di protezione.",
+      "Guanti isolanti contro il rischio elettrico."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(SL) Quando devono essere impiegati i DPI (art. 75 D.Lgs. 81/08)?",
+    "answers": [
+      "Sempre, in ogni attività.",
+      "Solo in caso di ispezione.",
+      "Quando i rischi non possono essere evitati o sufficientemente ridotti con misure tecniche, protezione collettiva o organizzazione del lavoro.",
+      "Solo su richiesta del lavoratore."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) Cosa sono i dispositivi di protezione collettiva (DPC)?",
+    "answers": [
+      "Dispositivi indossati dal singolo lavoratore.",
+      "Misure che proteggono contemporaneamente più lavoratori intervenendo sulla fonte del rischio o sull’ambiente.",
+      "Dispositivi usati solo dal datore di lavoro.",
+      "Strumenti per le sole prove di evacuazione."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) In quante categorie sono classificati i DPI?",
+    "answers": [
+      "2 categorie.",
+      "3 categorie.",
+      "4 categorie.",
+      "5 categorie."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) Una situazione tipica per i DPI di prima categoria è:",
+    "answers": [
+      "Protezione da rischi minimi che possono causare danni di lieve entità (es. piccoli urti, fenomeni atmosferici).",
+      "Protezione da rischi di morte o danni gravi e permanenti.",
+      "Protezione da rischi chimici complessi.",
+      "Uso esclusivo in ambiente sanitario."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(SL) Quale affermazione sui DPI di terza categoria è corretta?",
+    "answers": [
+      "Proteggono solo da rischi lievi.",
+      "Proteggono da rischi di morte o danni gravi e permanenti e richiedono specifico addestramento.",
+      "Sono usati solo per comfort termico.",
+      "Non richiedono formazione."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) Qual è l’unità di misura per il livello di intensità sonora equivalente (Lex,8h) sul lavoro?",
+    "answers": [
+      "Watt (W).",
+      "Lux (lx).",
+      "Metri al secondo quadrato (m/s²).",
+      "Decibel dB(A)."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "(SL) Il rischio da rumore è considerato assente quando il livello di esposizione Lex è:",
+    "answers": [
+      "Inferiore a 80 dB(A).",
+      "Tra 80 e 85 dB(A).",
+      "Tra 85 e 87 dB(A).",
+      "Superiore a 87 dB(A)."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(SL) Da quale valore di Lex,8h scatta l’obbligo di formazione specifica per i lavoratori esposti a rumore?",
+    "answers": [
+      "70 dB(A).",
+      "75 dB(A).",
+      "80 dB(A).",
+      "90 dB(A)."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) Dal punto di vista fisico, il rumore è:",
+    "answers": [
+      "Un flusso di particelle cariche in un conduttore.",
+      "Un fenomeno legato alla propagazione di onde di pressione in un mezzo elastico.",
+      "Solo la percezione soggettiva di un suono fastidioso.",
+      "Un’oscillazione termica dell’aria."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(SL) Con il termine “pene accessorie” si intendono:",
+    "answers": [
+      "Le pene principali di reclusione o multa.",
+      "Le sanzioni disciplinari di corpo.",
+      "Sanzioni che si aggiungono alla pena principale e incidono su diritti o sullo status del condannato.",
+      "Solo le sanzioni pecuniarie."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(SL) Quale tra i seguenti è un esempio di possibile pena accessoria in ambito militare?",
+    "answers": [
+      "Richiamo verbale non iscritto a matricola.",
+      "Deplorazione disciplinare semplice.",
+      "Perdita del grado o interdizione dai pubblici uffici nei casi previsti dalla legge.",
+      "Assegnazione al servizio di guardia per un mese."
+    ],
+    "correctIndex": 2
+  },
+     {
+    "question": "(AM) Quale delle seguenti espressioni riassume meglio il legame tra qualità, principi e competenza nel personale dell'Aeronautica Militare?",
+    "answers": [
+      "Sono elementi distinti che non devono necessariamente integrarsi tra loro.",
+      "Sono tre aspetti che, integrati, rendono l’azione del personale efficace, credibile e coerente con i valori dell’AM.",
+      "Sono qualità richieste solo ai comandanti e non al resto del personale.",
+      "Sono concetti teorici che non hanno impatto sul comportamento quotidiano."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(AM) Che cos’è l’etica, in riferimento ai valori dell’Aeronautica Militare?",
+    "answers": [
+      "Un insieme di norme esclusivamente giuridiche scritte nelle leggi dello Stato.",
+      "L’insieme dei regolamenti disciplinari interni delle Forze Armate.",
+      "Un insieme di regole non scritte che guidano il comportamento corretto anche quando nessuno osserv",
+      ""
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(AM) Nella cosiddetta “piramide dei valori” dell’AM, quale elemento occupa il livello fondamentale, su cui si basano tutti gli altri?",
+    "answers": [
+      "Le capacità tecniche specialistiche.",
+      "L’etica e l’integrità personale.",
+      "Le dotazioni materiali di reparto.",
+      "L’anzianità di servizio."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "(AM) Quale affermazione descrive correttamente le caratteristiche del personale dell’Aeronautica Militare?",
+    "answers": [
+      "Deve essere altamente professionale, adeguatamente addestrato e costantemente aggiornato.",
+      "È sufficiente che sia motivato, anche senza un addestramento specifico.",
+      "Deve soltanto obbedire agli ordini senza sviluppare alcuna competenza autonom",
+      ""
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(AM) Nel governo della politica del personale dell’AM, quali sono, in modo generale, le tre fasi principali di attività?",
+    "answers": [
+      "Selezione del personale, gestione del percorso di carriera, valorizzazione e impiego.",
+      "Reclutamento, gestione amministrativa, pensionamento.",
+      "Formazione, addestramento, congedo.",
+      "Assunzione, licenziamento, controllo disciplinare."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(AM) Nel governo della politica della formazione dell’AM, qual è la principale differenza tra formazione e addestramento?",
+    "answers": [
+      "La formazione riguarda l’acquisizione di valori, cultura professionale e competenze di base; l’addestramento è focalizzato sull’applicazione pratica e sull’esercizio ripetuto di procedure operative.",
+      "La formazione è obbligatoria, l’addestramento è facoltativo.",
+      "La formazione riguarda solo il personale di truppa, l’addestramento solo gli ufficiali.",
+      "Non vi è alcuna differenza: sono sinonimi."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "(AM) Che cos’è la leadership in ambito militare?",
+    "answers": [
+      "La capacità di imporre le proprie decisioni con la forz",
+      "",
+      "La funzione esclusiva del grado più elevato presente in reparto.",
+      "La capacità di influenzare, motivare e guidare altre persone verso il conseguimento di un obiettivo comune."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "(AM) Che cos’è la followership in ambito militare?",
+    "answers": [
+      "L’arte di comandare in modo autoritario.",
+      "La capacità di eseguire gli ordini in modo passivo, senza spirito critico.",
+      "Il comportamento responsabile di chi segue, supporta e contribuisce in modo attivo al raggiungimento della missione del gruppo.",
+      "La delega totale di ogni decisione al comandante."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(AM) Qual è una differenza fondamentale tra leadership e followership?",
+    "answers": [
+      "La leadership è attiva, mentre la followership è sempre passiv",
+      "",
+      "La leadership si concentra sull’influenzare e dirigere il gruppo, mentre la followership si focalizza sul contribuire in modo consapevole e responsabile agli obiettivi stabiliti.",
+      "La leadership è importante solo in pace, la followership solo in guerr"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "(AM) Che cosa si intende per “purpose” in relazione alla leadership e ai valori dell’AM?",
+    "answers": [
+      "Un obiettivo meramente individuale del comandante.",
+      "La chiara consapevolezza dello scopo e della missione che orienta azioni, decisioni e comportamenti del personale.",
+      "Un documento amministrativo interno al reparto.",
+      "Un insieme di regole tecniche per l’impiego dei velivoli."
+    ],
+    "correctIndex": 1
+  },
+     {
     "question": "(INF) Che cos'è l'informatica?",
     "answers": [
       "La scienza che studia esclusivamente il funzionamento fisico dei computer.",

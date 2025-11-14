@@ -1,0 +1,422 @@
+[
+  {
+    "question": "Il termine 'informatica' nasce:",
+    "answers": [
+      "Negli anni ’20",
+      "Negli anni ’60 come gestione automatica dell’informazione tramite calcolatore",
+      "Nel 2000 con Internet",
+      "Nel Rinascimento"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La parola 'informatica' deriva da:",
+    "answers": [
+      "INFORmazione autoMATICA",
+      "INFORmazione MATematica",
+      "INFORMAzione TECNICA",
+      "INFO-RAM"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Per 'calcolatore' si intende letteralmente:",
+    "answers": [
+      "Archiviatore",
+      "Misuratore",
+      "Da 'to compute' = calcolare",
+      "Contare a mano"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Definizione corretta di informatica:",
+    "answers": [
+      "Scienza che studia solo le reti",
+      "Scienza del trattamento automatico dell’informazione mediante elaborazione elettronica di un calcolatore",
+      "Uso dei social network",
+      "Scienza dei videogiochi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Quali tipi di informazione elabora un computer?",
+    "answers": [
+      "Solo testo",
+      "Solo immagini",
+      "Testo, immagini, audio, video, simboli/codici, disegni",
+      "Solo numeri"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Un sistema informativo è:",
+    "answers": [
+      "Solo hardware",
+      "Sistema per gestire informazioni e processi necessari agli obiettivi dell’organizzazione",
+      "Un’app mobile",
+      "Solo un archivio cartaceo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Un sistema informatico è:",
+    "answers": [
+      "Insieme di tecnologie hardware e software per il trattamento automatico dell’informazione",
+      "Solo persone e procedure",
+      "Solo reti di telecomunicazioni",
+      "Solo server"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Lo 'hardware' è:",
+    "answers": [
+      "La parte immateriale",
+      "Componenti materiali non modificabili (schede, dischi, tastiera, mouse, monitor…)",
+      "Solo il case",
+      "Solo CPU e RAM"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il 'software' è:",
+    "answers": [
+      "Componenti immateriali (programmi, istruzioni, procedure) di un sistema informatico",
+      "Cavi e connettori",
+      "Periferiche di I/O",
+      "Solo il sistema operativo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Un 'sistema informativo automatizzato' è:",
+    "answers": [
+      "Un sistema informativo senza persone",
+      "L’integrazione tra sistema informativo e sistema informatico",
+      "Solo procedure manuali",
+      "Solo rete Internet"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "L’informatica operativa è orientata a:",
+    "answers": [
+      "Strategia a lungo termine",
+      "Gestione dei processi",
+      "Esecuzione efficiente di compiti/calcoli semplici e ripetitivi",
+      "Ricerca accademica"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "L’informatica gestionale si focalizza su:",
+    "answers": [
+      "Controllo/gestione dei processi delle organizzazioni",
+      "Solo videogiochi",
+      "Archiviazione fotografica",
+      "Progettazione microchip"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "L’informatica strategica riguarda:",
+    "answers": [
+      "Obiettivi a lungo termine e decisioni supportate da analisi dei dati (Business Intelligence)",
+      "Solo manutenzione PC",
+      "Reti domestiche",
+      "Stampa 3D"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "IT (Information Technology) indica:",
+    "answers": [
+      "Solo comunicazioni wireless",
+      "Metodi/tecnologie per elaborare, archiviare e trasmettere informazioni",
+      "Solo hardware",
+      "Solo software"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "ICT (Information and Communications Technology) aggiunge:",
+    "answers": [
+      "Aspetti energetici",
+      "Mezzi di comunicazione/reti (Wi‑Fi, GSM/5G, Internet…)",
+      "Solo grafica 3D",
+      "Solo basi di dati"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Lo strumento antico di computazione citato è:",
+    "answers": [
+      "Compasso",
+      "Abaco",
+      "Sestante",
+      "Scandaglio"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La Pascalina (1642) era in grado di:",
+    "answers": [
+      "Solo contare le ore",
+      "Eseguire addizioni e sottrazioni automaticamente",
+      "Eseguire moltiplicazioni e grafici",
+      "Leggere schede perforate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La macchina calcolatrice di Leibniz (1674) eseguiva:",
+    "answers": [
+      "Addizioni/sottrazioni/moltiplicazioni/divisioni",
+      "Solo sottrazioni",
+      "Potenze e logaritmi",
+      "Solo addizioni"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Il telaio Jacquard (1801) introdusse:",
+    "answers": [
+      "Programmazione con schede perforate per automatizzare la tessitura",
+      "Motori elettrici",
+      "Transistor",
+      "Laser"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "La macchina analitica di Babbage (1834) è considerata:",
+    "answers": [
+      "Una stampante",
+      "Un calcolatore a programma registrato su schede",
+      "Un telegrafo",
+      "Un motore a vapore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Secondo le slide, la 'Macchina di Turing' porta a:",
+    "answers": [
+      "Uso del sistema decimale",
+      "Esecuzione teorica di qualsiasi algoritmo con risorse finite",
+      "Solo calcolo simbolico",
+      "Dispositivi ottici"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il computer Z3 (1941) di Konrad Zuse è considerato:",
+    "answers": [
+      "Il primo laptop",
+      "Primo computer elettromeccanico completo, programmabile con nastro perforato",
+      "Il primo PC IBM",
+      "Un calcolatore ottico"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Colossus (1944) progettato da Newman:",
+    "answers": [
+      "Era un gioco",
+      "Primo computer elettronico programmabile usato per decodifica",
+      "Un plotter",
+      "Un modem"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "ENIAC (1946) è descritto come:",
+    "answers": [
+      "Calcolatrice tascabile",
+      "Computer elettronico general purpose con 18.000 valvole",
+      "Mainframe a transistor",
+      "PC a 8 bit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "L’architettura di Von Neumann prevede:",
+    "answers": [
+      "Separazione totale tra dati e programma",
+      "Memoria unica per dati e programmi e unità di controllo/ALU",
+      "Solo memoria a nastro",
+      "Nessuna ALU"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Componenti base di un elaboratore:",
+    "answers": [
+      "CPU, memoria centrale, memorie di massa, periferiche I/O, bus di sistema",
+      "Stampante, scanner, router",
+      "Solo CPU e RAM",
+      "Solo hard disk"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "La CPU include:",
+    "answers": [
+      "ALU, Unità di Controllo (CU) e registri",
+      "Solo ALU",
+      "Solo CU",
+      "Solo registri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "La funzione dell’ALU è:",
+    "answers": [
+      "Gestione periferiche",
+      "Eseguire operazioni aritmetiche e logiche",
+      "Memorizzare programmi",
+      "Gestire la rete"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La CU (Control Unit) serve a:",
+    "answers": [
+      "Raffreddare la CPU",
+      "Interpretare e attivare le risorse necessarie all’esecuzione delle istruzioni",
+      "Generare corrente",
+      "Gestire il monitor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La memoria centrale è:",
+    "answers": [
+      "Sempre esterna",
+      "Interna e direttamente accessibile dalla CPU (semiconduttori)",
+      "Solo su disco",
+      "Solo nastri"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La memoria secondaria:",
+    "answers": [
+      "È più veloce della RAM",
+      "È esterna, più lenta ma molto capiente (dischi/SSD, ottici, USB)",
+      "Non è necessaria",
+      "È volatile"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La RAM è:",
+    "answers": [
+      "Di sola lettura",
+      "Memoria principale volatile, registra dati/istruzioni durante l’esecuzione",
+      "Memoria ottica",
+      "Memoria magnetica esterna"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "La ROM contiene:",
+    "answers": [
+      "Sistema di base/BIOS e istruzioni di avvio non modificabili",
+      "File utente",
+      "Cache L3",
+      "Driver della stampante"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Gli SSD rispetto agli hard disk:",
+    "answers": [
+      "Sono più lenti",
+      "Usano memorie flash senza parti meccaniche, con prestazioni più elevate",
+      "Consumano sempre di più",
+      "Sono nastri magnetici"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "L’address bus è:",
+    "answers": [
+      "Bidirezionale",
+      "Unidirezionale dalla CPU per selezionare celle/periferiche",
+      "Solo per i dati",
+      "Solo per il clock"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Il data bus è:",
+    "answers": [
+      "Bidirezionale per trasferire informazioni",
+      "Solo dalla CPU alla RAM",
+      "Solo dalla RAM alla CPU",
+      "Unidirezionale"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Il control bus:",
+    "answers": [
+      "Trasporta segnali di controllo (lettura/scrittura…)",
+      "Trasporta solo dati video",
+      "Collega solo stampanti",
+      "Non è parte del sistema"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Esempi di unità di input:",
+    "answers": [
+      "Monitor e stampante",
+      "Mouse, tastiera, scanner, microfono, webcam",
+      "Casse acustiche",
+      "Proiettore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Esempi di unità di output:",
+    "answers": [
+      "Mouse e tastiera",
+      "Stampante, monitor, proiettore, casse acustiche",
+      "Scanner",
+      "Webcam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Perché si usa la codifica binaria nei calcolatori?",
+    "answers": [
+      "Perché è più vicina al linguaggio umano",
+      "Per memorizzare/elaborare/scambiare informazioni con 0 e 1 secondo la base 2",
+      "Per risparmiare energia",
+      "Per motivi storici soltanto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Un bit è:",
+    "answers": [
+      "Una cella di memoria da 16 simboli",
+      "L’unità fondamentale di informazione (0/1)",
+      "Un byte",
+      "Un settore di disco"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Un byte è:",
+    "answers": [
+      "4 bit",
+      "6 bit",
+      "8 bit",
+      "10 bit"
+    ],
+    "correctIndex": 2
+  }
+]

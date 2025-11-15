@@ -1,7 +1,8 @@
 const UTENTI = {
-   "Alessandra.Giacomi": "romolo",
+   "Alessandra.Giacomi": "VillafrancaSE",
       "Marco.Giacomi": "romolo",
-
+   "Giuseppe.Taddeo": "Sergenti1010.",
+   "Enrico.Didomenico": "Pinocchio130509@.",
   "Martino.Massafra": "sozcaX-nipton-2ropxy",
   "Hegler.Citarelli": "Hegler.90",
   "Gianmarco.Spaziani": "Gianmarco93",

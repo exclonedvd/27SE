@@ -362,41 +362,25 @@
 
             if (!valid) return;
 
-            // Endpoint della tua Web App Google Apps Script
-            const endpoint = "https://script.google.com/macros/s/AKfycbxvVx2jkEVYln5uZcswE6H8W8o9jZ9h7O5_C2XjSyzJZtByKE88XSZBeuKWjeFkHFVd2Q/exec";
+            // 👉 Sostituisci questo con l’URL della tua Web App di Google Apps Script
+            const endpoint = "https://script.google.com/macros/s/IL_TUO_ID/exec";
 
             try {
                 const res = await fetch(endpoint, {
                     method: "POST",
-                    // text/plain per evitare problemi CORS con application/json
-                    headers: { "Content-Type": "text/plain;charset=utf-8" },
+                    headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ nome, cognome, ente, email })
                 });
 
-                const text = await res.text();
-                console.log("Risposta grezza dal server:", text);
-
-                let data = null;
-                try {
-                    data = JSON.parse(text);
-                } catch (err) {
-                    console.warn("Risposta non in JSON:", err);
-                }
-
-                if (!res.ok) {
-                    throw new Error("HTTP " + res.status + " - " + text);
-                }
-
-                if (!data || data.result !== "success") {
-                    throw new Error("Risposta inattesa dal server");
-                }
+                const data = await res.json();
+                console.log("Risposta server:", data);
 
                 success.textContent =
                     "Registrazione salvata! I dati sono stati aggiunti al foglio.";
                 success.style.display = "block";
                 form.reset();
             } catch (error) {
-                console.error("Errore nell'invio:", error);
+                console.error("Errore:", error);
                 success.textContent =
                     "Si è verificato un errore nell'invio. Riprova più tardi.";
                 success.style.display = "block";

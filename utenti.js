@@ -34,6 +34,13 @@ const UTENTI = {
   "Alberto.Schiattino": "sergenti27",
   "Davidemichele.Ciuffreda": "Yamaha125!",
   "Giusi.Stanca": "Stefi.Dani09",
+   "Sara.Fabbiano": "SaraFabby.97",
+   "Roberto.Fragnito": "Rossonero96",
+   "Gianrocco.Romita": "27sergenti2025",
+  "Daniele.Ruggiero": "sgaragnana23",
+  
+  
+  
   "9500256": "27SERGENTI2025",
   "8900534": "27SERGENTI2025",
   "9700669": "27SERGENTI2025",

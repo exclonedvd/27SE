@@ -81,5 +81,6 @@ const UTENTI = {
   "Claudio.Cassarà": "Pinturicchio80@",
   "Gabriele.Candiloro": "d35wJkygSxrGEXD",
   "Valerio.Sassi": "Gssvar1990??",
-  "Luigi.Mazzarella": "Ginos.77"
+  "Luigi.Mazzarella": "Ginos.77",
+  "Emanuele.Puca": "Emanuele98"
 };

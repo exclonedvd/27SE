@@ -1,4 +1,5 @@
-const UTENTI = {
+const UTENTI = {      
+      "Luigi.Annunziata": "8041988",
       "Alessandro.Tullio": "Parmigiana79!",
    "Alessandra.Giacomi": "VillafrancaSE",
       "Rocco.Papillo": "Laziomerda1900!",

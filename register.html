@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/icon-192.png">
+    <link rel="icon" type="image/png" href="icon-192.png">
 
     <style>
         * {
@@ -224,7 +224,7 @@
 <body>
     <main class="wrapper">
         <header class="header">
-            <img src="img/icon-192.png" alt="Logo Antares II" class="logo">
+            <img src="icon-192.png" alt="Logo Antares II" class="logo">
             <div class="subtitle">27° Corso Sergenti · Aeronautica Militare</div>
             <h1>Registrazione accesso</h1>
             <p class="subtext">
@@ -362,25 +362,41 @@
 
             if (!valid) return;
 
-            // 👉 Sostituisci questo con l’URL della tua Web App di Google Apps Script
+            // Endpoint della tua Web App Google Apps Script
             const endpoint = "https://script.google.com/macros/s/AKfycbxvVx2jkEVYln5uZcswE6H8W8o9jZ9h7O5_C2XjSyzJZtByKE88XSZBeuKWjeFkHFVd2Q/exec";
 
             try {
                 const res = await fetch(endpoint, {
                     method: "POST",
-                    headers: { "Content-Type": "application/json" },
+                    // text/plain per evitare problemi CORS con application/json
+                    headers: { "Content-Type": "text/plain;charset=utf-8" },
                     body: JSON.stringify({ nome, cognome, ente, email })
                 });
 
-                const data = await res.json();
-                console.log("Risposta server:", data);
+                const text = await res.text();
+                console.log("Risposta grezza dal server:", text);
+
+                let data = null;
+                try {
+                    data = JSON.parse(text);
+                } catch (err) {
+                    console.warn("Risposta non in JSON:", err);
+                }
+
+                if (!res.ok) {
+                    throw new Error("HTTP " + res.status + " - " + text);
+                }
+
+                if (!data || data.result !== "success") {
+                    throw new Error("Risposta inattesa dal server");
+                }
 
                 success.textContent =
                     "Registrazione salvata! I dati sono stati aggiunti al foglio.";
                 success.style.display = "block";
                 form.reset();
             } catch (error) {
-                console.error("Errore:", error);
+                console.error("Errore nell'invio:", error);
                 success.textContent =
                     "Si è verificato un errore nell'invio. Riprova più tardi.";
                 success.style.display = "block";

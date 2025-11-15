@@ -38,6 +38,12 @@ const UTENTI = {
    "Roberto.Fragnito": "Rossonero96",
    "Gianrocco.Romita": "27sergenti2025",
   "Daniele.Ruggiero": "sgaragnana23",
+   "Piera.Cenname": "Agostino21",
+  "Marco.Maurizi": "Marco.1982",
+  "Angelo.Capodiferro": "20031988",
+  "Vito.Avella": "olivetti3",
+  
+  
   
   
   

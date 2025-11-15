@@ -20,7 +20,7 @@ const UTENTI = {
   "9300318": "27SERGENTI2025",
   "Matteo.Leccisotti": "Matteo94",
   "7822858": "27SERGENTI2025",
-  "9300866": "27SERGENTI2025",
+  "Pasquale.Liccardo": "Pasquale93",
   "8503175": "27SERGENTI2025",
   "9200145": "27SERGENTI2025",
   "9300514": "27SERGENTI2025",

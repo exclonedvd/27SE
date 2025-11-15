@@ -1,33 +1,7 @@
 const UTENTI = {
-  "8503025": "27SERGENTI2025",
-  "8800147": "27SERGENTI2025",
-  "8407086": "27SERGENTI2025",
-  "9700272": "27SERGENTI2025",
-  "9900092": "27SERGENTI2025",
-  "9900174": "27SERGENTI2025",
-  "9900304": "27SERGENTI2025",
-  "9900185": "27SERGENTI2025",
-  "9700173": "27SERGENTI2025",
-  "9900198": "27SERGENTI2025",
-  "9700503": "27SERGENTI2025",
-  "9500845": "27SERGENTI2025",
-  "9600791": "27SERGENTI2025",
-  "9800070": "27SERGENTI2025",
-  "9400587": "27SERGENTI2025",
   "Gianmarco.Spaziani": "Gianmarco93",
-  "9400588": "27SERGENTI2025",
-  "9700426": "27SERGENTI2025",
-  "9300318": "27SERGENTI2025",
   "Matteo.Leccisotti": "Matteo94",
-  "7822858": "27SERGENTI2025",
   "Pasquale.Liccardo": "Pasquale93",
-  "8503175": "27SERGENTI2025",
-  "9200145": "27SERGENTI2025",
-  "9300514": "27SERGENTI2025",
-  "9800070": "27SERGENTI2025",
-  "9000360": "27SERGENTI2025",
-  "8013310": "27SERGENTI2025",
-  "8503235": "27SERGENTI2025",
   "Nicola.Tasquier": "27SERGENTI2025",
   "Simone.D'Ingillo": "Gingillo84",
   "Salvatore.Zoppi": "Forzanapoli.01",
@@ -53,22 +27,6 @@ const UTENTI = {
    "Cesare.Palombi": "ASR.1927",
    "Pasquale.Rotunno": "Melissa2017?",
   "Carlo.Donvito": "wimfup-7ruzTa-toqniw",
-  
-  
-  
-  
-  
-    
-  
-  
-  
-  
-  
-  
-  
-  "9500256": "27SERGENTI2025",
-  "8900534": "27SERGENTI2025",
-  "9700669": "27SERGENTI2025",
-  "9500845": "27SERGENTI2025",
-  "9600791": "27SERGENTI2025"
+  "Carmine.Sellitto": "Ginevra.2013",
+  "Daniele.Giannangeli": "lorenzo10"
 };

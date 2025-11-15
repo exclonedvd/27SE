@@ -1,6 +1,7 @@
 const UTENTI = {
    "Alessandra.Giacomi": "VillafrancaSE",
       "Rocco.Papillo": "Laziomerda1900!",
+         "Daniele.Carbone": "SSLAZIO1900!",
    "Michelepio.Latorre": "Sergente1994",
    "Marco.Giacomi": "romolo",
    "Marharyta.Petrenko": "Patatelesse34",

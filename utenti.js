@@ -24,6 +24,8 @@ const UTENTI = {
   "Antonio.Sorrentino": "9btxT89l",
   "Tancredi.Zomparelli": "Tancredi83@",
    "Filippo.Lezzi": "Sergenti!2025",
+   "Giorgio.Castellucci": "Antares2..",
+  "Federico.Mattia": "Sergente.2025",
    "Cesare.Palombi": "ASR.1927",
    "Pasquale.Rotunno": "Melissa2017?",
   "Carlo.Donvito": "wimfup-7ruzTa-toqniw",

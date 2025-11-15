@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrazione – Antares II</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icon-192.png">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: radial-gradient(circle at top, #1e252e 0, #050608 55%, #000000 100%);
+            color: #f5f5f5;
+        }
+
+        .wrapper {
+            padding: 40px 30px;
+            max-width: 520px;
+            width: 90%;
+            background: rgba(10, 12, 16, 0.92);
+            border-radius: 18px;
+            box-shadow:
+                0 18px 40px rgba(0, 0, 0, 0.6),
+                0 0 0 1px rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 22px;
+        }
+
+        .logo {
+            width: 110px;
+            height: 110px;
+            margin-bottom: 18px;
+            border-radius: 50%;
+            box-shadow: 0 0 18px rgba(255, 96, 64, 0.55);
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.18em;
+            color: #ffcc66;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+
+        .subtext {
+            font-size: 0.9rem;
+            color: #d4d4d4;
+            line-height: 1.6;
+        }
+
+        .tag {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 14px;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            font-size: 0.75rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: #ff7b4b;
+        }
+
+        .form {
+            margin-top: 22px;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 14px;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #f5f5f5;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 9px 11px;
+            border-radius: 10px;
+            border: 1px solid rgba(148, 163, 184, 0.8);
+            font-size: 0.95rem;
+            background-color: rgba(15, 23, 42, 0.85);
+            color: #f9fafb;
+            outline: none;
+            transition:
+                border-color 0.15s ease,
+                box-shadow 0.15s ease,
+                background-color 0.15s ease;
+        }
+
+        input::placeholder {
+            color: #9ca3af;
+        }
+
+        input:focus {
+            border-color: #ff7b4b;
+            box-shadow:
+                0 0 0 1px rgba(0, 0, 0, 0.8),
+                0 0 0 2px rgba(255, 123, 75, 0.4);
+            background-color: rgba(15, 23, 42, 1);
+        }
+
+        .error-text {
+            color: #fca5a5;
+            font-size: 0.8rem;
+            margin-top: 4px;
+            display: none;
+        }
+
+        .success-text {
+            color: #bbf7d0;
+            font-size: 0.85rem;
+            margin-top: 10px;
+            display: none;
+        }
+
+        .btn-submit {
+            width: 100%;
+            margin-top: 8px;
+            padding: 11px 22px;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            background: linear-gradient(135deg, #ff7b4b, #ffcc66);
+            color: #050608;
+            box-shadow:
+                0 12px 26px rgba(0, 0, 0, 0.65),
+                0 0 0 1px rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-1px);
+            box-shadow:
+                0 16px 32px rgba(0, 0, 0, 0.75),
+                0 0 0 1px rgba(0, 0, 0, 0.9);
+            opacity: 0.98;
+        }
+
+        .btn-submit:active {
+            transform: translateY(1px);
+            box-shadow:
+                0 8px 18px rgba(0, 0, 0, 0.7),
+                0 0 0 1px rgba(0, 0, 0, 0.9);
+        }
+
+        .helper {
+            margin-top: 16px;
+            font-size: 0.8rem;
+            color: #8f9bae;
+            text-align: center;
+        }
+
+        .helper a {
+            color: #ffcc66;
+            text-decoration: none;
+        }
+
+        .helper a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-note {
+            margin-top: 22px;
+            font-size: 0.8rem;
+            color: #8f9bae;
+            opacity: 0.9;
+            text-align: center;
+        }
+
+        @media (max-width: 480px) {
+            .wrapper {
+                padding: 32px 22px;
+            }
+            h1 {
+                font-size: 1.35rem;
+            }
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="wrapper">
+        <header class="header">
+            <img src="icon-192.png" alt="Logo Antares II" class="logo">
+            <div class="subtitle">27° Corso Sergenti · Aeronautica Militare</div>
+            <h1>Registrazione accesso</h1>
+            <p class="subtext">
+                Compila il modulo per inviare la tua richiesta di accesso all’app Antares II.
+                I dati verranno verificati e l’abilitazione avverrà manualmente.
+            </p>
+            <span class="tag">Richiesta di registrazione</span>
+        </header>
+
+        <section class="form">
+            <form id="signupForm" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input
+                            id="nome"
+                            name="nome"
+                            type="text"
+                            placeholder="Es. Mario"
+                            autocomplete="given-name"
+                            required
+                        />
+                        <div class="error-text" id="nomeError">Inserisci il tuo nome.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cognome">Cognome</label>
+                        <input
+                            id="cognome"
+                            name="cognome"
+                            type="text"
+                            placeholder="Es. Rossi"
+                            autocomplete="family-name"
+                            required
+                        />
+                        <div class="error-text" id="cognomeError">Inserisci il tuo cognome.</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="ente">Ente di appartenenza</label>
+                    <input
+                        id="ente"
+                        name="ente"
+                        type="text"
+                        placeholder="Es. 36° Stormo, Accademia, ecc."
+                        required
+                    />
+                    <div class="error-text" id="enteError">Inserisci il tuo ente di appartenenza.</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email di contatto</label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="tua.email@example.com"
+                        autocomplete="email"
+                        required
+                    />
+                    <div class="error-text" id="emailError">Inserisci un indirizzo email valido.</div>
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    Invia richiesta
+                </button>
+
+                <div class="success-text" id="successMessage">
+                    Registrazione inviata! I tuoi dati sono stati salvati, ti contatteremo quando l’account sarà abilitato.
+                </div>
+
+                <div class="helper">
+                    Hai già ricevuto l’abilitazione?
+                    <a href="/login">Vai al login</a>
+                </div>
+            </form>
+        </section>
+
+        <div class="footer-note">
+            Antares II · Tool non ufficiale, creato da colleghi per colleghi.
+        </div>
+    </main>
+
+    <script>
+        const form = document.getElementById("signupForm");
+
+        function showError(id, show) {
+            const el = document.getElementById(id);
+            if (el) el.style.display = show ? "block" : "none";
+        }
+
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(String(email).toLowerCase());
+        }
+
+        form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+
+            // Reset messaggi
+            showError("nomeError", false);
+            showError("cognomeError", false);
+            showError("enteError", false);
+            showError("emailError", false);
+            const success = document.getElementById("successMessage");
+            success.style.display = "none";
+
+            const nome = document.getElementById("nome").value.trim();
+            const cognome = document.getElementById("cognome").value.trim();
+            const ente = document.getElementById("ente").value.trim();
+            const email = document.getElementById("email").value.trim();
+
+            let valid = true;
+
+            if (!nome) {
+                showError("nomeError", true);
+                valid = false;
+            }
+
+            if (!cognome) {
+                showError("cognomeError", true);
+                valid = false;
+            }
+
+            if (!ente) {
+                showError("enteError", true);
+                valid = false;
+            }
+
+            if (!validateEmail(email)) {
+                showError("emailError", true);
+                valid = false;
+            }
+
+            if (!valid) return;
+
+            // 👉 Sostituisci questo con l’URL della tua Web App di Google Apps Script
+            const endpoint = "https://script.google.com/macros/s/IL_TUO_ID/exec";
+
+            try {
+                const res = await fetch(endpoint, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ nome, cognome, ente, email })
+                });
+
+                const data = await res.json();
+                console.log("Risposta server:", data);
+
+                success.textContent =
+                    "Registrazione salvata! I dati sono stati aggiunti al foglio.";
+                success.style.display = "block";
+                form.reset();
+            } catch (error) {
+                console.error("Errore:", error);
+                success.textContent =
+                    "Si è verificato un errore nell'invio. Riprova più tardi.";
+                success.style.display = "block";
+            }
+        });
+    </script>
+</body>
+</html>

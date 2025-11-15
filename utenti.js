@@ -85,5 +85,6 @@ const UTENTI = {
   "Emanuele.Puca": "Emanuele98",
   "Enrico.Didomenico": "Pinocchio130509@.",
   "Daniele.Mari": "Romamerda1",
-  "Mattia.Landolfi": "Forzainter99."
+  "Mattia.Landolfi": "Forzainter99.",
+  "Maria.Buonino": "Tizianoferro.7"
 };

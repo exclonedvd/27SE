@@ -129,7 +129,8 @@
         }
 
         input[type="text"],
-        input[type="email"] {
+        input[type="email"],
+        input[type="password"] {
             width: 100%;
             padding: 9px 11px;
             border-radius: 10px;
@@ -287,18 +288,6 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="ente">Ente di appartenenza</label>
-                    <input
-                        id="ente"
-                        name="ente"
-                        type="text"
-                        placeholder="Es. 7° Stormo, Accademia, ecc."
-                        required
-                    />
-                    <div class="error-text" id="enteError">Inserisci il tuo ente di appartenenza.</div>
-                </div>
-
-                <div class="form-group">
                     <label for="email">Email di contatto</label>
                     <input
                         id="email"
@@ -309,6 +298,30 @@
                         required
                     />
                     <div class="error-text" id="emailError">Inserisci un indirizzo email valido.</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input
+                        id="password"
+                        name="password"
+                        type="password"
+                        placeholder="Inserisci una password"
+                        required
+                    />
+                    <div class="error-text" id="passwordError">Inserisci una password.</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Conferma password</label>
+                    <input
+                        id="confirmPassword"
+                        name="confirmPassword"
+                        type="password"
+                        placeholder="Ripeti la password"
+                        required
+                    />
+                    <div class="error-text" id="confirmPasswordError">Le password non coincidono.</div>
                 </div>
 
                 <button type="submit" class="btn-submit">
@@ -350,15 +363,18 @@
             // Reset messaggi
             showError("nomeError", false);
             showError("cognomeError", false);
-            showError("enteError", false);
             showError("emailError", false);
+            showError("passwordError", false);
+            showError("confirmPasswordError", false);
+
             const success = document.getElementById("successMessage");
             success.style.display = "none";
 
             const nome = document.getElementById("nome").value.trim();
             const cognome = document.getElementById("cognome").value.trim();
-            const ente = document.getElementById("ente").value.trim();
             const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("password").value;
+            const confirmPassword = document.getElementById("confirmPassword").value;
 
             let valid = true;
 
@@ -372,13 +388,18 @@
                 valid = false;
             }
 
-            if (!ente) {
-                showError("enteError", true);
+            if (!validateEmail(email)) {
+                showError("emailError", true);
                 valid = false;
             }
 
-            if (!validateEmail(email)) {
-                showError("emailError", true);
+            if (!password) {
+                showError("passwordError", true);
+                valid = false;
+            }
+
+            if (!confirmPassword || confirmPassword !== password) {
+                showError("confirmPasswordError", true);
                 valid = false;
             }
 
@@ -391,12 +412,12 @@
                 method: "POST",
                 mode: "no-cors",
                 headers: { "Content-Type": "text/plain;charset=utf-8" },
-                body: JSON.stringify({ nome, cognome, ente, email })
+                body: JSON.stringify({ nome, cognome, email, password })
             });
 
             // Mostriamo subito il messaggio di successo
             success.textContent =
-                "Registrazione inviata! Entro 24 ore il tuo account sarà abilitato dopo i dovuti controlli.Grazie";
+                "Registrazione inviata! Entro 24 ore il tuo account sarà abilitato dopo i dovuti controlli. Grazie";
             success.style.display = "block";
             form.reset();
         });

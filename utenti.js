@@ -42,6 +42,25 @@ const UTENTI = {
   "Marco.Maurizi": "Marco.1982",
   "Angelo.Capodiferro": "20031988",
   "Vito.Avella": "olivetti3",
+   "Fabio.Fanelli": "Daniele06.",
+  "Alessandro.Cimoimpalli": "Alesabri.01",
+  "FrancescoPaolo.Rispoli": "Villafranca.1"
+    "Felice.Coppola": "forzanapoli",
+   "Giuseppe.Iovinello": "Napoli1926!!",
+  "Antonio.Sorrentino": "9btxT89l",
+  "Tancredi.Zomparelli": "Tancredi83@",
+   "Filippo.Lezzi": "Sergenti!2025",
+   "Cesare.Palombi": "ASR.1927",
+   "Pasquale.Rotunno": "Melissa2017?",
+  "Carlo.Donvito": "wimfup-7ruzTa-toqniw",
+  
+  
+  
+  
+  
+    
+  
+  
   
   
   

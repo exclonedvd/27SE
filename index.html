@@ -280,16 +280,16 @@
     </div>
 
     <p class="description">
-      Accesso esclusivo tramite <strong>matricola</strong> e <strong>password</strong>.
+      Accesso esclusivo tramite <strong>username</strong> e <strong>password</strong>.
     </p>
 
     <div class="field-group">
-      <label class="field-label" for="matricola">Matricola</label>
+      <label class="field-label" for="matricola">Username</label>
       <input
         id="matricola"
         type="text"
         inputmode="text"
-        placeholder="Matricola senza la lettera 'A'"
+        placeholder="Nome.Cognome"
         autocomplete="off"
       />
     </div>
@@ -309,6 +309,15 @@
 
     
     <button type="button" onclick="login()">Accedi</button>
+
+    <button
+      type="button"
+      onclick="window.location.href='https://27se.pages.dev/register'"
+      style="margin-top:8px;"
+    >
+      Registrati
+    </button>
+
     <button type="button" id="patchBtn" class="btn-patch">
       PATCH CORSO
     </button>

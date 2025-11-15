@@ -30,7 +30,7 @@ const UTENTI = {
   "Vito.Avella": "olivetti3",
    "Fabio.Fanelli": "Daniele06.",
   "Alessandro.Cimoimpalli": "Alesabri.01",
-  "FrancescoPaolo.Rispoli": "Villafranca.1"
+  "FrancescoPaolo.Rispoli": "Villafranca.1",
     "Felice.Coppola": "forzanapoli",
    "Giuseppe.Iovinello": "Napoli1926!!",
   "Antonio.Sorrentino": "9btxT89l",

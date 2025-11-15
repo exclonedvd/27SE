@@ -87,5 +87,6 @@ const UTENTI = {
   "Daniele.Mari": "Romamerda1",
   "Mattia.Landolfi": "Forzainter99.",
   "Maria.Buonino": "Tizianoferro.7",
-  "Luca.Ettorre": "Luca.ettorre"
+  "Luca.Ettorre": "Luca.ettorre",
+  "Aldo.Degliotti": "Caparezza.OrbitOrbit.2025*"
 };

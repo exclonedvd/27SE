@@ -1,5 +1,7 @@
 const UTENTI = {
-   "Marco.Giacomi": "romolo",
+   "Alessandra.Giacomi": "romolo",
+      "Marco.Giacomi": "romolo",
+
   "Martino.Massafra": "sozcaX-nipton-2ropxy",
   "Hegler.Citarelli": "Hegler.90",
   "Gianmarco.Spaziani": "Gianmarco93",
@@ -29,7 +31,7 @@ const UTENTI = {
    "Filippo.Lezzi": "Sergenti!2025",
    "Giorgio.Castellucci": "Antares2..",
   "Federico.Mattia": "Sergente.2025",
-   "Cesare.Palombi": "ASR.1927",
+   "Cesare.Palombi": "Cesare1927",
    "Pasquale.Rotunno": "Melissa2017?",
   "Carlo.Donvito": "wimfup-7ruzTa-toqniw",
   "Carmine.Sellitto": "Ginevra.2013",

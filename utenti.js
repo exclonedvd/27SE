@@ -13,7 +13,7 @@ const UTENTI = {
   "Carlo.Donvito": "wimfup-7ruzTa-toqniw",
   "Carmine.Sellitto": "Ginevra.2013",
   "Cesare.Martino": "Sergenti1982",
-  "Cesare.Palombi": "ASR.1927",
+  "Cesare.Palombi": "Cesare1927",
   "Cristian.Mancarella": "AleLeo17",
   "Daniele.Giannangeli": "lorenzo10",
   "Daniele.Ruggiero": "sgaragnana23",
@@ -60,7 +60,7 @@ const UTENTI = {
   "Pasquale.Rotunno": "Melissa2017?",
   "Piera.Cenname": "Agostino21",
   "Pietro.DelVecchio": "Pietroiolanda20!",
-  "Raffaella.Magnati": "Sergenti25",
+  "Raffaella.Magnati": "Sergente25",
   "Roberto.Fragnito": "Rossonero96",
   "Salvatore.Zoppi": "Forzanapoli.01",
   "Sara.Fabbiano": "SaraFabby.97",
@@ -76,5 +76,9 @@ const UTENTI = {
   "Luigi.Pedata": "Praticadimare.1",
   "Carmine.Rea": "AntaresII!",
   "Domenica.DiGrigoli": "X3kr89",
-  "MariaTeresa.Pastore": "Mattia.2011"
+  "MariaTeresa.Pastore": "Mattia.2011",
+  "Gab.Cand": "yfLNPbt9aSC4hfJ",
+  "Claudio.Cassarà": "Pinturicchio80@",
+  "Gabriele.Candiloro": "d35wJkygSxrGEXD",
+  "Valerio.Sassi": "Gssvar1990??"
 };

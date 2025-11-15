@@ -1,4 +1,5 @@
 const UTENTI = {
+  "Martino.Massafra": "sozcaX-nipton-2ropxy",
   "Hegler.Citarelli": "Hegler.90",
   "Gianmarco.Spaziani": "Gianmarco93",
   "Matteo.Leccisotti": "Matteo94",

@@ -270,7 +270,7 @@
                         id="ente"
                         name="ente"
                         type="text"
-                        placeholder="Es. 36° Stormo, Accademia, ecc."
+                        placeholder="Es. 7° Stormo, Accademia, ecc."
                         required
                     />
                     <div class="error-text" id="enteError">Inserisci il tuo ente di appartenenza.</div>
@@ -322,7 +322,7 @@
             return re.test(String(email).toLowerCase());
         }
 
-        form.addEventListener("submit", async (e) => {
+        form.addEventListener("submit", (e) => {
             e.preventDefault();
 
             // Reset messaggi
@@ -362,29 +362,21 @@
 
             if (!valid) return;
 
-            // 👉 Sostituisci questo con l’URL della tua Web App di Google Apps Script
-            const endpoint = "https://script.google.com/macros/s/IL_TUO_ID/exec";
+            const endpoint = "https://script.google.com/macros/s/AKfycbxvVx2jkEVYln5uZcswE6H8W8o9jZ9h7O5_C2XjSyzJZtByKE88XSZBeuKWjeFkHFVd2Q/exec";
 
-            try {
-                const res = await fetch(endpoint, {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ nome, cognome, ente, email })
-                });
+            // Inviamo la richiesta senza attendere risposta
+            fetch(endpoint, {
+                method: "POST",
+                mode: "no-cors",
+                headers: { "Content-Type": "text/plain;charset=utf-8" },
+                body: JSON.stringify({ nome, cognome, ente, email })
+            });
 
-                const data = await res.json();
-                console.log("Risposta server:", data);
-
-                success.textContent =
-                    "Registrazione salvata! I dati sono stati aggiunti al foglio.";
-                success.style.display = "block";
-                form.reset();
-            } catch (error) {
-                console.error("Errore:", error);
-                success.textContent =
-                    "Si è verificato un errore nell'invio. Riprova più tardi.";
-                success.style.display = "block";
-            }
+            // Mostriamo subito il messaggio di successo
+            success.textContent =
+                "Registrazione inviata! Verifica sul foglio Google che i dati siano stati salvati.";
+            success.style.display = "block";
+            form.reset();
         });
     </script>
 </body>
